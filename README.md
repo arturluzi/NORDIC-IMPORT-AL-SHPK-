@@ -1,5 +1,4 @@
-
-## 2. Kodi i Plotë HTML (`index.html`)
+(`index.html`)
 
 ```html
 <!DOCTYPE html>
