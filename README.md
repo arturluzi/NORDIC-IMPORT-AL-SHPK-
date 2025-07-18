@@ -1,10 +1,4 @@
-// Document Ready
-document.addEventListener('DOMContentLoaded', function() {
-    // Mobile Menu Toggle
-    const mobileMenuBtn = document.querySelector('.mobile-menu');
-    const nav = document.querySelector('nav');
-    
-    mobileMenuBtn.addEventListener('click', function() {
+mobileMenuBtn.addEventListener('click', function() {
         nav.classList.toggle('active');
         this.querySelector('i').classList.toggle('fa-times');
     });
